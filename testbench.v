@@ -33,10 +33,7 @@ module tb_APB_Master;
         forever #5 PCLK = ~PCLK;
     end
 
-  initial begin
-    $vcdplusfile ("decoder_wf.vpd");
-    $vcdpluson ();
-  end
+
 
     // CPU Tasks
     task WRITE(input [7:0] addr, input [7:0] data);
