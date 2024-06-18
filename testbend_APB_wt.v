@@ -51,11 +51,6 @@ initial begin
 		//T3 deassert signal
 		// kiem tra khi pready =1 thi psel and PENABLE = 0
 		@(posedge PCLK)
-		//if(PREADY == 1'b0) begin 
-		// 
-		//end
-		//else begin
-		// @(posedge PCLK)
 		PSEL = 1'b0;
 		PENABLE = 1'b0;
 		//end
