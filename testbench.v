@@ -1,4 +1,3 @@
-
 module tb_APB_Master;
     // Testbench signals
     reg PCLK;
