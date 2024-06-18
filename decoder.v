@@ -1,5 +1,3 @@
-
-
 module APB_Master (
     input wire PCLK,
     input wire PRESETn,
