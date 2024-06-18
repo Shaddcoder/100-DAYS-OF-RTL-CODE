@@ -47,7 +47,7 @@ initial begin
 		//T2 PENABLE assert
 		@(posedge PCLK)
 		PENABLE = 1'b1;
-	
+
 		//T3 deassert signal
 		// kiem tra khi pready =1 thi psel and PENABLE = 0
 		@(posedge PCLK)
